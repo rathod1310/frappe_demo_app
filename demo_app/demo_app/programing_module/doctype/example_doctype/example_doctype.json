@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PRE.#####",
+ "creation": "2023-12-18 11:02:11.920566",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "personal_information_section",
+  "f_name",
+  "l_name",
+  "email",
+  "contact_no",
+  "address",
+  "education_section",
+  "10th_result",
+  "12th_result",
+  "column_break_whov3",
+  "graducation_year",
+  "post_graducation_year",
+  "upload_document_section",
+  "id_proof",
+  "address_proof",
+  "graducation_certificate",
+  "post_graducation_certificate",
+  "fees",
+  "section_break_jnkiq",
+  "submit"
+ ],
+ "fields": [
+  {
+   "fieldname": "personal_information_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Information"
+  },
+  {
+   "fieldname": "f_name",
+   "fieldtype": "Data",
+   "label": "F Name"
+  },
+  {
+   "fieldname": "l_name",
+   "fieldtype": "Data",
+   "label": "L Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Small Text",
+   "label": "Email"
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Int",
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "education_section",
+   "fieldtype": "Section Break",
+   "label": "Education "
+  },
+  {
+   "fieldname": "10th_result",
+   "fieldtype": "Attach",
+   "label": "10th Result"
+  },
+  {
+   "fieldname": "12th_result",
+   "fieldtype": "Attach Image",
+   "label": "12th Result"
+  },
+  {
+   "fieldname": "column_break_whov3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "graducation_year",
+   "fieldtype": "Int",
+   "label": "Graducation Year"
+  },
+  {
+   "fieldname": "post_graducation_year",
+   "fieldtype": "Int",
+   "label": "Post Graducation Year"
+  },
+  {
+   "fieldname": "upload_document_section",
+   "fieldtype": "Section Break",
+   "label": "Upload Document"
+  },
+  {
+   "fieldname": "id_proof",
+   "fieldtype": "Attach",
+   "label": "Id Proof"
+  },
+  {
+   "fieldname": "address_proof",
+   "fieldtype": "Attach",
+   "label": "Address Proof"
+  },
+  {
+   "fieldname": "graducation_certificate",
+   "fieldtype": "Attach Image",
+   "label": "Graducation Certificate"
+  },
+  {
+   "fieldname": "post_graducation_certificate",
+   "fieldtype": "Attach Image",
+   "label": "Post Graducation Certificate"
+  },
+  {
+   "default": "100",
+   "fieldname": "fees",
+   "fieldtype": "Currency",
+   "label": "Fees ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_jnkiq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "submit",
+   "fieldtype": "Button",
+   "label": "Submit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-18 13:42:04.603645",
+ "modified_by": "Administrator",
+ "module": "Programing Module",
+ "name": "Example Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
